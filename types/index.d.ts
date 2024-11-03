@@ -328,3 +328,8 @@ declare type SearchParamProps = {
   declare interface getBankByAccountIdProps {
     accountId: string;
   }
+
+  declare interface AuthFormProps{
+    email: string;
+    password: string
+  }
